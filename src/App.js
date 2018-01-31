@@ -7,9 +7,9 @@ const events = [
     title: 'DGTL 2018',
     summary: 'DGTL Amsterdam is a cutting edge electronic music festival in Amsterdam. Championing the underground, this festival is all about creativity and discovery.',
     date: '01/03/2018',
-    techno: false,
+    techno: true,
     disco: true,
-    funkHouse: false,
+    funkHouse: true,
   },
   {
     title: 'Lente Kabinet',
