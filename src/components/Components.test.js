@@ -15,15 +15,14 @@ describe('<Title />', () => {
   })
 })
 
-
 describe('<SubTitle />', () => {
-  const subtitle = shallow(<SubTitle content="Something Completely Different!" />)
+  const subtitle = shallow(<SubTitle content="Plan your own Secret" />)
 
   it('has a wrapping h2 tag', () => {
     expect(subtitle).toHaveTagName('h2')
   })
 
   it('renders a different subtitle text', () => {
-    expect(subtitle).toHaveText('Something Completely Different!')
+    expect(subtitle).toHaveText('Plan your own Secret')
   })
 })

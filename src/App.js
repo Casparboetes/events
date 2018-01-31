@@ -1,21 +1,15 @@
-import React, { Component } from 'react'
-import logo from './logo.svg'
+import React from 'react'
 import './App.css'
-import Title from './components/Title'
-import SubTitle from './components/SubTitle'
+import EventsContainer from './events/EventsContainer'
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-        <Title content="Super Secret Events" />
-        <SubTitle content="Plan your own Secret" />
-        </header>
-
-      </div>
-    );
+    <div>
+      <EventsContainer events={ [] } />
+    </div>
+    )
   }
 }
 
-export default App;
+export default App
