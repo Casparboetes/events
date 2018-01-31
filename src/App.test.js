@@ -21,7 +21,7 @@ describe('<App />', () => {
   it('contains a SubTitle', () => {
     expect(app).toContainReact(subtitle)
   })
-
+  
     it('renders without crashing', () => {
       const div = document.createElement('div')
       ReactDOM.render(<App />, div)
