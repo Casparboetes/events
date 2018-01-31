@@ -16,10 +16,10 @@ class App extends Component {
         <Title content="Plan your own Secret" />
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>
+
         <Title content="Super Secret Events" />
         <Title content="Plan your own Secret" />
-        </p>
+
       </div>
     );
   }
