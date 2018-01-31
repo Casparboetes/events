@@ -1,11 +1,12 @@
 import React, { PureComponent } from 'react'
 import Title from '../components/Title'
 import SubTitle from '../components/SubTitle'
+import EventItem from './EventItem'
 import './EventsContainer.css'
 
 class EventsContainer extends PureComponent {
   renderEvent(event, index) {
-    return null
+    return <EventItem key={ index } { ...event } />
   }
 
   render() {
