@@ -1,10 +1,6 @@
-.header {
-  background-color: #000;
+@import url("https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Titillium+Web|Ubuntu");
+header.eventHeader {
+  background-color: #C70039;
   height: 150px;
   padding: 10px;
-  color: white;
-}
-
-.title {
-  font-size: 1.5em;
-}
+  color: #160208; }

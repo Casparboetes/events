@@ -4,6 +4,7 @@ import SubTitle from '../components/SubTitle'
 import EventItem from './EventItem'
 import './EventsContainer.css'
 
+
 class EventsContainer extends PureComponent {
   renderEvent(event, index) {
     return <EventItem key={ index } { ...event } />
@@ -12,7 +13,7 @@ class EventsContainer extends PureComponent {
   render() {
     return(
       <div className="event wrapper">
-        <header className="header">
+        <header className="eventHeader">
         <Title content="Super Secret Events" />
         <SubTitle content="Plan your own Secret" />
         </header>

@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css'
+// import './App.css'
 import EventsContainer from './events/EventsContainer'
 
 const events = [
@@ -40,7 +40,7 @@ const events = [
 class App extends React.Component {
   render() {
     return (
-    <div>
+    <div className="App">
       <EventsContainer events={ events } />
     </div>
     )
