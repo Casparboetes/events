@@ -1,10 +1,32 @@
-.header {
-  background-color: #000;
+@import url("https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Titillium+Web|Ubuntu");
+header.eventHeader {
+  background-color: #C70039;
   height: 150px;
   padding: 10px;
-  color: white;
-}
+  color: #160208; }
 
-.title {
-  font-size: 1.5em;
-}
+div.wrapper {
+  margin: 0 auto;
+  width: 100%; }
+
+main.xxx {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  margin: 0 autxxxo;
+  flex: 2 100%; }
+  @media (min-width: 1025px) {
+    main.xxx {
+      max-width: 1260px;
+      flex-flow: row wrap; } }
+  @media (min-width: 769px) {
+    main.xxx {
+      flex-flow: row wrap; } }
+  @media (min-width: 1025px) {
+    main.xxx {
+      max-width: 1260px; } }
+
+h1 {
+  padding: 0 30px; }

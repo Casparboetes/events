@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css'
+// import './App.css'
 import EventsContainer from './events/EventsContainer'
 
 const events = [
@@ -9,13 +9,13 @@ const events = [
     date: '01/03/2018',
     techno: true,
     disco: true,
-    funkHouse: true,
+    funkHouse: false,
   },
   {
     title: 'Lente Kabinet',
     summary: 'The Dekmantel crew do most things pretty damn well: their parties are up there with the best in Amsterdam, and their record label gets better with every release. They also curate Lente Kabinet, a daylong affair now in its second year. The 2013 edition will take place at a new location, Het Twiske, a big nature reserve in a cluster of villages north of Amsterdam. It boasts a small but elite cast of artists who represent the various strains of the Dekmantel sound: house, techno and a touch of bass.',
     date: '01/03/2018',
-    techno: false,
+    techno: true,
     disco: false,
     funkHouse: true,
   },
@@ -23,7 +23,7 @@ const events = [
     title: 'Wildenburg',
     summary: 'De datum is bekend! Wildeburg vindt in 2018 plaats van vrijdag 13 t/m zondag 15 juli.',
     date: '01/03/2018',
-    techno: false,
+    techno: true,
     disco: false,
     funkHouse: false,
   },
@@ -33,14 +33,14 @@ const events = [
     date: '01/03/2018',
     techno: true,
     disco: true,
-    funkHouse: false,
+    funkHouse: true,
   },
 ]
 
 class App extends React.Component {
   render() {
     return (
-    <div>
+    <div className="App">
       <EventsContainer events={ events } />
     </div>
     )
