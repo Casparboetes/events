@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import Techno from '../images/disco-ball-techno.svg'
 import Disco from '../images/disco-ball-disco.svg'
 import Funkhouse from '../images/funk-house.svg'
+import LikeButton from '../components/LikeButton'
 import './EventItem.css'
-import Button from '../components/Button'
 
 class EventItem extends PureComponent {
   static propTypes = {
@@ -39,8 +39,8 @@ class EventItem extends PureComponent {
             </div>
           </main>
           <footer>
-          <Button />
-          </footer>
+            <LikeButton />
+        </footer>
       </article>
     )
   }

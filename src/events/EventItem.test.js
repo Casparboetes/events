@@ -1,7 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 import EventItem from './EventItem'
-import imageIcon from '../images/disco-ball-techno.svg'
+import imageIcon from '../images/disco-ball-disco.svg'
 
 const event = {
   title: 'DGTL 2018',
