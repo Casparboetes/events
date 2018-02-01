@@ -31,15 +31,15 @@ class EventItem extends PureComponent {
           <div>
               <p>{ summary }</p>
               <p>{ date }</p>
-              <ul>
-                { techno && <img style={{ height : '4em', }} img src={ Techno } alt="techno"/> }
-                { disco && <img style={{ height : '4em'}}img src={ Disco } alt="disco"/> }
-                { funkHouse && <img style={{ height : '4em'}}img src={ Funkhouse } alt="funkhouse"/> }
-              </ul>
             </div>
           </main>
           <footer>
             <LikeButton />
+            <ul className="img">
+              { techno && <img style={{ height : '4em', }} img src={ Techno } alt="techno"/> }
+              { disco && <img style={{ height : '4em'}}img src={ Disco } alt="disco"/> }
+              { funkHouse && <img style={{ height : '4em'}}img src={ Funkhouse } alt="funkhouse"/> }
+            </ul>
         </footer>
       </article>
     )

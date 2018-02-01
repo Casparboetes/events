@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Titillium+Web|Ubuntu");
 img {
-  height: 1em; }
+  height: 1em;
+  margin: -60px 0px 0px 25px; }
 
 article.event {
   flex: 1;
@@ -33,12 +34,8 @@ header .cover {
   background-position: center center;
   overflow: hidden;
   margin-bottom: 54px; }
-  header .cover img {
-    height: 1em; }
 
-header h1 {
-  margin: 20px 0; }
-
-.categories {
-  margin: -60px 20px 0 0;
-  float: right; }
+img {
+  height: 1em; }
+  img h1 {
+    margin: 20px 0; }
