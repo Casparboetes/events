@@ -1,6 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 import EventItem from './EventItem'
+import imageIcon from '../images/disco-ball-techno.svg'
 
 const event = {
   title: 'DGTL 2018',
@@ -23,7 +24,7 @@ describe('<EventItem />', () => {
     expect(container.find('h1')).toHaveText(event.title)
   })
 
-  it('shows a 🥕  when it is disco', () => {
-    expect(container.find('ul > li')).toHaveText('🥕')
+  it('shows a imageIcon when it is disco', () => {
+    expect(container.find('ul > img')).toHaveProp('src', imageIcon)
   })
 })

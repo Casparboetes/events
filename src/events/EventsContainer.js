@@ -18,7 +18,7 @@ class EventsContainer extends PureComponent {
         <SubTitle content="Plan your own Secret" />
         </header>
 
-        <main>
+        <main className="xxx">
           { this.props.events.map(this.renderEvent) }
         </main>
 

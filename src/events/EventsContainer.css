@@ -4,3 +4,28 @@ header.eventHeader {
   height: 150px;
   padding: 10px;
   color: #160208; }
+
+div.wrapper {
+  margin: 0 auto;
+  width: 100%; }
+  div.wrapper main.xxx {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; }
+    @media (min-width: 1025px) {
+      div.wrapper main.xxx {
+        max-width: 1260px;
+        flex-flow: row wrap; } }
+    @media (min-width: 769px) {
+      div.wrapper main.xxx {
+        flex-flow: row wrap; } }
+  div.wrapper > header {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    flex: 2 100%; }
+    @media (min-width: 1025px) {
+      div.wrapper > header {
+        max-width: 1260px; }
+        div.wrapper > header h1 {
+          padding: 0 30px; } }
