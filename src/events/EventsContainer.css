@@ -15,7 +15,7 @@ main.xxx {
   flex-direction: column;
   display: flex;
   flex-direction: column;
-  margin: 0 autxxxo;
+  margin: 0 auto;
   flex: 2 100%; }
   @media (min-width: 1025px) {
     main.xxx {
